@@ -1,0 +1,63 @@
+.one {
+  border: 2px solid;
+  width: 100px;
+  height: 120px;
+  border-radius: 30px;
+  margin-left: 350px;
+  margin-top: -200px;
+  text-align: center;
+  background-color: purple;
+}
+#transform:checked ~ .one {
+  transform: none;
+}
+#rotate0:checked ~ .one {
+  transform: rotate(45deg);
+}
+#rotate1:checked ~ .one {
+  transform: rotatex(20deg);
+}
+#rotate2:checked ~ .one {
+  transform: rotateY(45deg);
+}
+#scale:checked ~ .one {
+  transform: scale(2, 2);
+}
+#skew:checked ~ .one {
+  transform: skew(50deg);
+}
+#translate:checked ~ .one {
+  transform: translate(50px);
+}
+#translate1:checked ~ .one {
+  transform: translate(10px, 20px);
+}
+#translate2:checked ~ .one {
+transform: translate3d(40px, 50px, 70px);
+}
+
+#scale1:checked ~ .one {
+  transform: scaleX(1, 5);
+}
+#scale2:checked ~ .one {
+  transform: scaleY(50%);
+}
+#skew1:checked ~ .one {
+  transform: skewX(20deg);
+}
+#skew2:checked ~ .one {
+  transform: skewY(50deg);
+}
+#rotate3:checked ~ .one {
+  transform: rotate(100deg);
+}
+.main{
+    overflow: scroll;
+    background-color: grey;
+    width: 40%;
+    margin: auto;
+   }
+   ::-webkit-scrollbar{
+     display: none;
+   }
+   
