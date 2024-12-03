@@ -54,7 +54,7 @@ transform: translate3d(40px, 50px, 70px);
 .main{
     overflow: scroll;
     background-color: grey;
-     margin: auto;
+   
    }
    ::-webkit-scrollbar{
      display: none;
